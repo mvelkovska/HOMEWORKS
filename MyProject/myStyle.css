@@ -1,0 +1,102 @@
+*
+{
+
+    font-family: 'Rock Salt', cursive;
+ 
+}
+
+
+ body {
+        background-image: url("./myImages/bgg.jpg");
+        background-repeat: repeat;
+      
+      }
+
+ #naslov 
+{
+    color:rgba(39, 116, 39, 0.596);
+    padding:1em;
+    margin:5px;
+    text-shadow: 2px 2px 2px black;
+    border:5px inset greenyellow;    
+} 
+
+  header{
+    float:right;
+} 
+
+
+ul li{
+    padding-top:2.2em;
+    list-style-type:none;    
+
+}
+
+ul li a {
+    font-weight:bold;
+    padding:0.2em;
+    color:rgba(39, 116, 39, 0.596);
+    background-color:white;
+    border:3px solid rgba(39, 116,39, 0.596);
+    box-shadow: 8px 8px #888888;
+    
+}
+.carousel-inner img {
+    width:100%;
+}
+
+.festivals {
+    border:3px inset black;
+}
+
+
+.festivals2 {
+    float:left;
+    font-size:16px;
+    margin-right:30px;
+    
+    
+}
+
+
+.styleButton {
+    background-color:rgba(39, 116, 39, 0.596);
+}
+
+input[type=text]:focus {
+    border: 2px solid black;
+  }
+
+#forma{
+    text-align: center;
+   
+}
+
+#formaa {
+    background-color:khaki;
+}
+
+a:hover {
+    color:khaki;
+}
+
+#news
+ {
+    margin-left:1100px;
+    margin-top:-90px;
+ }
+
+ footer {
+     text-align: center;
+ }
+
+ .footer1 {
+    float:left;
+    margin-top:-50px;
+    margin-left:260px;
+    
+}
+  .footer1 a {
+    display:block;
+    
+}  
