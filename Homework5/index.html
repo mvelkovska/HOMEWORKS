@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script type="text/javascript" src="./myScript.js"></script> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link href="./myStyle.css" type="text/css" rel="stylesheet">
+    <title>Fiesta &#127881</title>
+    <link rel="icon" href="./myImages/logo.png" type="image/icon type">
+
+</head>
+
+<body>
+    <header>
+        <h1 id="naslov">Buy tickets for your favourite festivals</h1>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#festivals">Festivals</a></li>
+            <li><a href="#contacts">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <div id="karosel" class="carousel slide" data-interval="2000">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./myImages/pic1.jpg" width="850em" alt="festival" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./myImages/pic2.jpg" width="850em" alt="festival" />
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./myImages/pic3.jpg" width="850em" alt="festival" />
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./myImages/pic4.jpg" width="850em" alt="festival" />
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./myImages/pic5.jpg" width="850em" alt="festival" />
+
+                    </div>
+
+
+                </div>
+                <a class="carousel-control-prev" href="#karosel" data-slide="prev">
+                    <span style='font-size:5em;'>&#8592;</span>
+                </a>
+                <a class="carousel-control-next" href="#karosel" data-slide="next">
+                    <span style='font-size:5em;'>&#8594;</span>
+
+                </a>
+            </div>
+        </section>
+
+        <section>
+
+            <br />
+            <br />
+            <h2 id="festivals" style="text-align:center">Make sure to reserve your <img src="./myImages/logo.png"
+                    width="150px" alt="logo">tickets on time &#128522; </h2>
+            <img src="myImages/exit.jpg" alt="exitFestival" height="250px" class="festivals" style="margin-left: 60px;">
+            <img src="myImages/dFest.png" alt="dFestFestival" width="320px" class="festivals">
+            <img src="myImages/tland.jpg" alt="tomorrowland" width="250px" class="festivals">
+            <img src="myImages/coach.jpg" alt="coachella" height="250px" class="festivals">
+            <br />
+            <br />
+
+
+            <ul>
+
+                <li class="festivals2">
+                    <div>EXIT FESTIVAL,SERBIA <br /> <input type="button" value="Buy ticket/s" class="styleButton">
+                    </div>
+                </li>
+
+                <li class="festivals2">
+                    <div>D FEST FESTIVAL,MACEDONIA <br /> <input type="button" value="Buy ticket/s" class="styleButton">
+                    </div>
+                </li>
+
+                <li class="festivals2">
+                    <div>TOMORROWLAND,BELGIUM <br /> <input type="button" value="Buy ticket/s" class="styleButton">
+                    </div>
+                </li>
+
+                <li class="festivals2">
+                    <div>COACHELLA, CALIFORNIA <br /> <input type="button" value="Buy ticket/s" class="styleButton">
+                    </div>
+                </li>
+            </ul>
+            <br />
+            <br />
+
+        </section>
+        <br />
+        <br />
+        <section id="formaa">
+            <br />
+            <br />
+
+            <h2 style="text-align: center;">Subscribe to our newsletter</h2>
+            <br />
+            <br />
+            <div id="forma">
+                <form>
+                    <input type="text" placeholder="Name" name="ime" id="name" required="required" />
+                    <input type="text" placeholder="Email address" name="email" id="email" required="required" />
+
+                    <input type="submit" value="Subscribe">
+                </form>
+
+                <p id="news"><img src="myImages/news.jpg" width="160px" style="border-radius: 30px;" alt="newspaper"></p>
+            </div>
+        </section>
+
+    </main>
+    <br>
+    <br>
+    <footer>
+        <h2 id="contacts" style="text-align: center;">Contact</h2>
+
+        <br />
+        <br />
+       
+
+        <ul>
+
+            <li class="footer1">
+                <a href="#"><img src="./myImages/facebook.png" alt="facebook" width="35px"></a>
+            </li>
+
+            <li class="footer1">
+                <a href="#"><img src="./myImages/twitter.png" alt="twitter" width="35px"></a>
+            </li>
+
+            <li class="footer1">
+                <a href="#"><img src="./myImages/instagram.jpg" alt="instagram" width="35px"></a>
+            </li>
+
+        </ul>
+        <br />
+        <br />
+
+        <small>All rights reserved</small>
+
+
+
+    </footer>
+</body>
+
+</html>
