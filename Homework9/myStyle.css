@@ -1,0 +1,39 @@
+
+#main {
+    border: 4px solid black;
+    position:relative;
+    height: 400px;
+    width: 748px;
+    margin: auto;
+    
+}
+
+.all {
+    height:200px;
+    width:374px;
+}
+
+#one {
+    float:left;
+    background-color:darkred;
+}
+
+#two {
+    float:right;
+    background-color:red;
+}
+
+
+#three {
+    position:absolute;
+    background-color:red;
+    bottom:0;
+    left:0;
+}
+
+#four {
+    position:absolute;
+    background-color:darkred;
+    bottom:0;
+    right:0;
+}
